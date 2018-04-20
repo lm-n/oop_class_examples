@@ -18,8 +18,8 @@ void move() {
 }
 
 void display() {
-  pushMatrix();
-    translate(transx,transy);
+    pushMatrix();
+    translate(250,250);
     rotate(radians(rotation));
     rectMode(CENTER);
     fill(c);
